@@ -1,0 +1,57 @@
+The parts manufactured by the company OPT follow a probability distribution of their defects, according to the table described below. Calculate the mean and standard deviation of the discrete random variable, defined by the function described in the following table.
+
+COSTA NETO, P. L. de O.; CYMBALISTA, M. Probabilities: theoretical summaries, solved exercises, proposed exercises. 2nd ed. Sao Paulo: Edgard Blucher, 2005.
+x P(x)
+250 0.10
+253 0.35
+256 0.30
+259 0.15
+262 0.05
+265 0.05
+Total 1
+Probability distribution of x
+Source: Prepared by the author.
+a) Mean = 255.55 and standard deviation = 13.7475
+b) Mean = 255.55 and standard deviation = 3.708.
+Feedback: correct alternative, because from the data calculated in the table, the mean = E(x) = 255.55. Variance will be: as E(X²) = 65,319.55, so σ²(x) = 65319.55 - (255.55)² = 13.7475 . So the standard deviation will be 13.7475‾‾‾‾‾‾‾‾√ = 3.708
+Resolution:
+x P(x) x.P(x) x².P(x)
+250 0.10 25.00 6,250.00
+253 0.35 88.55 22,403.15
+256 0.30 76.80 19,660.80
+259 0.15 38.85 10,062.15
+262 0.05 13.10 3,432.20
+265 0.05 13.25 3,511.25
+Total 1,255.55 65,319.55
+c) Mean = 65319.55 and standard deviation = 255.55.
+Feedback: incorrect alternative, because according to the resolution of the exercise in item B, the mean will be the value of the sum of the item Σx.P(x) = 255.55 and the variance will be 𝞼² = 65319.55 - (255.55 )² = 13.7475; so the standard deviation will be 13.7475‾‾‾‾‾‾‾‾√= 3.708.
+d) Mean = 1 and standard deviation = 3.708.
+Feedback: incorrect alternative, because the mean value is wrong; 1 is the sum of the probabilities, the average will be:
+Σx.P(x) = 255.55
+e) Mean = 65319.55 and standard deviation = 3.708.
+Feedback: incorrect alternative, because the mean value is Σx.P(x) = 255.55 and not Σx2.P(x).
+
+
+Part 2:
+
+A haberdashery in the region of 25 de Março has been operating in the same place for 10 years. In a particular sector of this store, the number of products sold in a day by its employees is described in the variable P with the following probability distribution (this study was carried out in the last 5 years of sale of this store), as shown in Table 2.4 below:
+
+no. products 0 1 2 3 4 5
+Probability of sales 0.05 0.15 0.10 0.30 0.15 0.25
+Table 2.4 - Distribution of product sales probabilities per day
+Source: Prepared by the author
+Each seller receives sales commissions, distributed as follows: if he sells up to 3 products in a day, he earns a commission of R$ 12.00 per product sold. From the third sale, the commission increases to R$ 60.00. In this sense, what is the average number of products sold by each seller E(P), and what is the average commission for each of them E(C)?
+
+a) E(P) = 3.1 products and E(C) = BRL 99.60.
+Feedback: correct alternative, according to the calculations developed in the following table. E(P) = 0*0.05 + 1*0.15 + 2*0.10 + 3*0.30 + 4*0.15 + 5* 0.25 = 0 + 0.15 + 0.20 + 0.90 + 0.60 + 1.25 = 3.1 (average of products sold)
+No. of products (P) 0 1 2 3 4 5
+Commission (C) 0 12 12+12 = 24 12+12+60 = 84 12+12+60+60 = 144 60+60+60+12+12 = 204
+Probability of sale 0.05 0.15 0.10 0.30 0.15 0.25
+E(C) = 0*0.05 + 12*0.15 + 24*0.10 + 84*0.30 + 144*0.15 + 204*0.25 = 0 + 1.8 + 25.20 + 21.60 + 51 = 99.60 (average commission).
+b) E(P) = 3.1 and E(C) = BRL 93.60
+Feedback: incorrect alternative, because the average product sold follows the rule for calculating the average and is correct: E(P) = 0*0.05 + 1*0.15 + 2*0.10 + 3*0, 30 + 4*0.15 + 5*0.25 = 0 + 0.15 + 0.20 + 0.90 + 0.60 + 1.25 = 3.1 (average of products sold). However, the commission average is wrong, your account does not follow the hope rule, it only made the following account: E(C) = (0+12+24+84+144+204)/5 = 468/5 = 93 .60.
+c) E(P) = 3.1 and E(C) = 468.
+Feedback: Incorrect alternative, as the average of employee commissions does not follow the correct pattern of average calculation. Just added up the commissions earned E(C) = 0 + 12+ 24 + 84 + 144 + 204 = 468 (not using the odds value).
+d) E(P) = 2.5 and E(C) = 99.60
+Feedback: incorrect alternative, as the average of the products sold is not correctly calculated. The calculation used here for average products sold was: E(P) = (0+1+2+3+4+5)/6 = 15/6 = 2.5 (not using the odds value). The average of commissions is correct, as it followed the calculation rule: E(C) = 0*0.05 + 12*0.15 + 24*0.10 + 84*0.30 + 144*0.15 + 204*0.25 = 0 + 1.8 + 25.20 + 21.60 + 51 = 99.60 (average commission).
+e) E(P) = 15 and E(C) = 99.60.
