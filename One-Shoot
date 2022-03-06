@@ -1,0 +1,62 @@
+Part 1:
+
+Calculate the expectation of the random variable X, which has the probability density function given by:
+
+F(x)=⎧⎩⎨⎪⎪2x, for 0≤x≤0.5−23x+43, for 0.5≤x≤2 0, for any other value
+
+a) 112.
+b) 6336.
+c) 14.
+d) 3036.
+Feedback: correct alternative, because the value of the integral ∫0.50x.2x.dx is equal to 3036, according to the following resolution: ∫0.50x.2x.dx + ∫20.5x.(−2.x3 + 43) dx = 2.x33|00.5 + (−23).x33|0.52 +43. x22|0.52 = =112- 6336+ 23. (4 - 14) = 3036 = 0.8333
+e) 0.
+
+
+
+
+
+
+
+Part 2:
+
+Consider the v.a. X whose pdf is given in the following table:
+
+x -2 -1 0 1 2 3
+Px(x) 0.1 0.2 0.2 0.3 0.1 0.1
+Distribution of probabilities of occurrence of x
+Source: Prepared by the author.
+Let us consider the function Y = g(X) = X². Calculate the new probability distribution function with this new function.
+
+a) The probability distribution function of Y will be:
+Y 0 1 4 9
+P(Y) 0.2 0.5 0.2 0.1
+Feedback: correct alternative, as we will have the following equivalence:
+{Y = 0} = {X = 0}
+{Y = 1} = {X = -1} U {X = 1}
+{Y = 4} = {X = -2} U {X = 2}
+{Y = 9} = {X = 3}
+As the events are mutually exclusive, we will have:
+P (Y = 0) = P(X = 0) = 0.2
+P(Y = 1) = P(X = -1) + P(X = 1) = 0.2 + 0.3 = 0.5
+P(Y = 4) = P(X = -2) + P(X = 2) = 0.1 + 0.1 = 0.2
+P(Y = 9) = P(X = 3) = 0.1
+Therefore, the probability distribution function of Y will be:
+Y 0 1 4 9
+P(Y) 0.2 0.5 0.2 0.1
+So Y is a new random variable, whose possible values ​​are 0, 1, 4, 9.
+b) The probability distribution function of Y will be:
+Y -2 -1 0 1 2 3
+Py(Y) 0.1 0.2 0.2 0.3 0.1 0.1
+Feedback: incorrect alternative, because in this case there was no change and it was described that the new function Y was equal to X, that is, Y = X and not Y = X².
+c) The probability distribution function of Y will be:
+Y -8 -1 0 1 8 27
+Py(Y) 0.1 0.2 0.2 0.3 0.1 0.1
+Feedback: incorrect alternative, because in this case, the function Y = X³ was used to do the equivalence, so we would have -8, -1, 0, 1, 8, 27.
+P(Y=0) = P(X=0) = 0.2 P(Y= -8) = P(Y= -2) = 0.1 P(Y = -1) = P(X=-1 ) = 0.2
+P(Y=1) = P(X=1) = 0.3 P(Y = 8) = P(X =2) = 0.1 P(Y = 27) = P(X= 3) = 0, 1
+d) The probability distribution function of Y will be:
+Y -3 -2 -1 0 1 2
+Py(Y) 0.1 0.1 0.3 0.2 0.2 0.1
+e) The probability distribution function of Y will be:
+Y 0 1 4 16 81
+Py(Y) 0.2 0.5 0.1 0.1 0.1
